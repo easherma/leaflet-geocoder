@@ -316,7 +316,7 @@ geocoder.blur();
 
 ### Events
 
-The geocoder includes all of Leaflet's [events methods](http://leafletjs.com/reference.html#events) and adds additional events that you can subscribe to, so that you can customize what happens when users interact with the geocoder. When you instantiate a new geocoder, assign it to variable, as above, and then you can use the event methods to listen for the events that it's firing. For example:
+The geocoder includes all of Leaflet's [events methods](http://leafletjs.com/reference.html#events) and adds additional events that you can subscribe to. These events allow you to customize what happens when users interact with the geocoder. When you instantiate a new geocoder and assign it to a variable (as described above), you can use the event methods to listen for the events that it's firing. For example:
 
 ```javascript
 geocoder.on('select', function (e) {
